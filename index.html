@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles.css">
+
+    <title>Trab html</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <main id="home">
+            <section id="formulario">
+                <form action="">
+                    <div class="info1">
+                        <label>Nome:</label>
+                        <input type="text">
+                        <label>Idade:</label>
+                        <input type="number">
+                    </div>
+
+                    <div class="info2">
+                        <p>Opções de Esportes:</p>
+                        <input type="checkbox" id="check1">
+                        <label for="check1">Futebol</label>
+                        <input type="checkbox" id="check2">
+                        <label for="check2">Volei</label>
+                        <input type="checkbox" id="check3">
+                        <label for="check3">Esgrima</label>
+                        <input type="checkbox" id="check4">
+                        <label for="check4">Tênis</label>
+                        <input type="checkbox" id="check5">
+                        <label for="check5">Ping Pong</label>
+                    </div>
+
+                    <div class="info3">
+                        <label>Sexo</label>
+                        <input type="radio" id="check6">
+                        <label for="check6">Masculino</label>
+                        <input type="radio" id="check7">
+                        <label for="check7">Feminino</label>
+                    </div>
+                </form>
+            </section>
+
+            <section id="Quadrados">
+                <button class='botao' id='btnCriar' onClick="gerarQuadrado()">Gerar novo Quadradito</button>
+                <div class="box"></div>
+                <button class='botao' id='btnCriar' onClick="excluirQuadrado()">delete Quadradito</button>
+            </section>
+        </main>
+        
+        <footer id="rodape">
+            <div class="dados-facul">
+                <h1>
+                    JEAN WESCLEY SOUSA TORRES
+                    <span>201907323181</span>
+                </h1>
+            </div>
+        </footer>
+        
+        <script src="./index.js"></script>
+    </div>
+</body>
+
+</html>

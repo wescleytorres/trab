@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home {
+  height: 100vh;
+  font-size: 25px;
+  padding: 30px;
+  background: url(./img/923.jpg) no-repeat;
+  background-size: cover;
+}
+
+#btnCriar {
+  color: #fff;
+  font-weight: bold;
+  background: #424242;
+  border: solid #ddd;
+  width: 200px;
+  height: 40px;
+  margin-left: 45%;
+}
